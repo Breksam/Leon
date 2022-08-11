@@ -1,0 +1,62 @@
+/*Start Global queries */
+@media (min-width:768px){
+    .container{
+        width: 750px;
+    }
+}
+@media (min-width:992px){
+    .container{
+        width: 970px;
+    }
+}
+@media (min-width:1200px){
+    .container{
+        width: 1170px;
+    }
+}
+/*End Global queries */
+
+@media (max-width:767px){
+/* Start Component Queries */
+    .special-heading{
+        font-size: 60px
+   }
+   .special-heading + p{
+      margin-top: -20px;
+   }
+/* End Component Queries */
+/* start contact queries */
+    #contact .info .label,#contact .info .link{
+        font-size: 25px;
+    }
+/* End contact queries */
+/* Start Services Queries */
+   #services .container .services-content .srv{
+    flex-direction: column;
+    text-align: center;
+    }
+}
+@media (max-width:1199px){
+    #services .container .services-content .image {
+        display: none;
+    }
+}
+/* End Services Queries */
+/* Start About Queries */
+
+@media (max-width:991px){
+    #about .about-content{
+       flex-direction: column;
+       text-align: center;
+    }
+    #about .about-content .image::before, #about .about-content .image::after{
+        display: none;
+    }
+    #about .about-content .image{
+        margin: 0 auto 60px;
+    }
+}
+/* End About Queries */
+
+
+

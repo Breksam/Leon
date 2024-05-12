@@ -6,8 +6,7 @@ A Leon institution Responsive website To provide technology services.
 
 - HTML.
 - CSS.
-- JS.
-- Bootstrap.
+- Media Query.
 
 ### Installing
 
